@@ -1,0 +1,64 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "richmenu-2",
+    "chatBarText": "メニューを開く",
+    "areas": [
+      {
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 1250,
+          "height": 230
+        },
+        "action": {
+          "type": "richmenuswitch",
+          "data": "torichmenu1",
+          "label": "torichmenu1",
+          "richMenuAliasId": "torichmenu1"
+        }
+      },
+      {
+        "bounds": {
+          "x": 0,
+          "y": 238,
+          "width": 2500,
+          "height": 594
+        },
+        "action": {
+          "type": "message",
+          "label": "マニュアルトリセツ",
+          "text": "マニュアルトリセツ"
+        }
+      },
+      {
+        "bounds": {
+          "x": 0,
+          "y": 840,
+          "width": 1242,
+          "height": 846
+        },
+        "action": {
+          "type": "message",
+          "label": "manual_写真撮影",
+          "text": "写真を撮る"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1246,
+          "y": 844,
+          "width": 1254,
+          "height": 842
+        },
+        "action": {
+          "type": "message",
+          "label": "manual_動画撮影",
+          "text": "動画を撮る"
+        }
+      }
+    ]
+  }
